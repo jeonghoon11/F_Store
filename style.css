@@ -1,0 +1,59 @@
+/* 노멀라이즈 */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+/* 노멀라이즈 끝 */
+
+/* 사이트의 최소 너비 결정 */
+.con-min-width {
+    min-width: 1200px; 
+    padding: 0 10px;
+}
+
+.con {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.con {
+    width: 1000px;
+}
+
+.menu-bar__menu-box-1 > ul > li {
+    display: inline-block;  /* 한 줄로 이어짐*/
+}
+
+.menu-bar__menu-box-1 > ul {
+    text-align: center;     /* 영역 안에서 센터로 이동 */
+}
+
+.logo-bar > div {
+    text-align: center;
+}
+
+.logo-bar > div > .logo-bar__logo {
+    font-size: 5rem;
+}
+
+.menu-bar__menu-box-1 > ul > li > a {
+    display: block;
+    font-size: 2rem;
+    padding: 10px 30px;    /* (위/아래) 10px, (좌/우) 30px 영역 확장 */
+}
+
+.menu-bar__menu-box-1 > ul > li:hover > a {
+    color: red;
+    text-decoration: underline;
+  }
+  
+.logo-bar > div > .logo-bar__logo {
+    font-size: 5rem;
+    text-decoration: underline;
+  }
