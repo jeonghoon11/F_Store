@@ -1,3 +1,14 @@
+body {
+    margin: 0;
+    height: 2000px;
+    background-color: black;
+}
+
+.FirstBackground {
+    height: 700px;
+    background: url(img/white.jpeg) fixed;
+}
+
 ul, li {
     margin: 0;
     padding: 0;
