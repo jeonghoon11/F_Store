@@ -1,0 +1,63 @@
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* .con {  
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    border: 10px solid red;
+} 
+*/
+
+
+.logo-bar {
+    text-align: center;
+    font-size: 120px;
+}
+
+.logo-icon {
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.menu-bar_menu-box-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.menu-container {
+    display: flex;
+    align-items: center;
+}
+
+.menu-container ul {
+    display: flex;
+}
+
+.menu-container li {
+    margin-left: 20px; /* 메뉴 간격 조정 */
+}
+
+h3 > nav > div > ul > li:hover {
+    color: red;
+}
