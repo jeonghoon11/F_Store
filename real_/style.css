@@ -4,6 +4,10 @@ body {
     background-color: black;
 }
 
+.slide_W {
+    animation: slide 2s;
+}
+
 .FirstBackground {
     height: 700px;
     background: url(img/white.jpeg) fixed;
@@ -20,18 +24,19 @@ a {
     text-decoration: none;
 }
 
-/* .con {  
+ /*
+ .con {  
     margin-left: auto;
     margin-right: auto;
     width: auto;
     border: 10px solid red;
-} 
-*/
-
+} */
 
 .logo-bar {
     text-align: center;
+    top: 80px;
     font-size: 120px;
+    font-family: sans-serif;
 }
 
 .logo-icon {
@@ -71,4 +76,13 @@ a {
 
 h3 > nav > div > ul > li:hover {
     color: red;
+}
+
+@keyframes slide {
+    from{
+        top: -100px;
+    }
+    to{
+        top: 300px;
+    }
 }
