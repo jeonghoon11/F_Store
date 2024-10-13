@@ -50,7 +50,6 @@ a {
 }
 
 .menu-bar_menu-box-1 {
-    /* position : fixed; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -58,11 +57,13 @@ a {
 }
 
 .logo-container {
+    /* position : fixed; */
     display: flex;
     align-items: center;
 }
 
 .menu-container {
+    /* position : fixed; */
     display: flex;
     align-items: center;
 }
